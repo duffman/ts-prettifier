@@ -1,0 +1,40 @@
+{
+  "name": "tsigniter",
+  "version": "1.1.7",
+  "description": "Coldmind TypeScript Compiler, to put it simple, this tool generates a resonable output from the TypeSceipt compiler which is crap and I can´t understand how they can sleep at night releasing such crap when it comes to console reporting...",
+  "main": "tsigniter.js",
+  "scripts": {
+    "test": "tstest"
+  },
+  "bin": {
+    "qp": "./tsigniter.js"
+  },
+  "keywords": [
+    "TypeScript",
+    "typescript",
+    "compiler",
+    "compiler",
+    "transpiler",
+    "prettify",
+    "compiler",
+    "output"
+  ],
+  "author": "Patrik Forsberg <patrik.forsberg@coldmind.com>",
+  "license": "LGPL-2.1",
+  "dependencies": {
+    "@types/node": "^8.0.28",
+    "chalk": "^2.1.0",
+    "child_process": "^1.0.2",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "commander": "^2.11.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^3.3.0",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "os": "^0.1.1",
+    "preferences": "^0.2.1",
+    "touch": "^3.1.0",
+    "typescript": "^2.5.2"
+  }
+}
